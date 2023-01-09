@@ -2,8 +2,16 @@ body {
   background-color: #1e1e27;
 }
 
+a:visited {
+  color: #e9eff1;
+}
+
+a:link {
+  color: #e9eff1; /* or any other color */
+}
+
 p {
-    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
     font-size: 110px;
     color: #e9eff1;
@@ -21,7 +29,7 @@ p {
 
 
 p1 {
-    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
     display: flex;
     justify-content: center;
     padding-top: 45px;
@@ -40,7 +48,7 @@ p1 {
   }
 
 p2 {
-    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
     display: flex;
     justify-content: center;
     font-size: 35px;
@@ -68,7 +76,7 @@ p2 {
     background-color: #1e1e27;
     color: white;
     text-align: center;
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Source Sans Pro', sans-serif;
     line-height: 50px;
     bottom: 0;
   }
